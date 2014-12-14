@@ -1,4 +1,7 @@
+[![Latest Stable Version](https://poser.pugx.org/lightningspirit/magic-interfaces/v/stable.svg)](https://packagist.org/packages/lightningspirit/magic-interfaces)
 [![Build Status](https://travis-ci.org/lightningspirit/magic-interfaces.svg?branch=master)](https://travis-ci.org/lightningspirit/magic-interfaces)
+[![License](https://poser.pugx.org/lightningspirit/magic-interfaces/license.svg)](https://packagist.org/packages/lightningspirit/magic-interfaces)
+[![Total Downloads](https://poser.pugx.org/lightningspirit/magic-interfaces/downloads.svg)](https://packagist.org/packages/lightningspirit/magic-interfaces)
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/lightningspirit/magic-interfaces?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # PHP Interfaces for magic methods
