@@ -1,0 +1,11 @@
+nbproject/
+.project
+.idea/
+vendor/
+composer.lock
+phpunit.xml
+*.tgz
+*.temp
+*.tmp
+~*
+.~*

@@ -1,0 +1,40 @@
+{
+    "name": "lightningspirit/magic-interfaces",
+    "description": "Provides PHP Interfaces to test some magic methods using instanceof instead of method_exists",
+    "keywords": ["interfaces","magic methods","magic interfaces"],
+    "homepage": "http://www.github.com/lightningspirit/magic-interfaces",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitor Carvalho",
+            "email": "lightningspirit@gmail.com",
+            "homepage": "http://lightningspirit.net",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "lightningspirit+magicinterfaces@gmail.com",
+        "issues": "http://github.com/lightningspirit/magic-interfaces/issues",
+        "forum": "http://gitter.im/lightningspirit/magic-interfaces",
+        "wiki": "http://github.com/lightningspirit/magic-interfaces/wiki"
+    },
+    "require": {
+        "php": ">=5.3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "archive": {
+        "exclude": ["tests/*"]
+    }
+}
