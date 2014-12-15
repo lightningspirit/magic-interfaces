@@ -3,8 +3,10 @@
 /**
  * Class ExampleClass
  */
-class ExampleClass implements Invokable, Stringifiable
+class ExampleClass implements Invokable, Stringifiable, Arrayable
 {
+
+    private $say = '"Hello, World!"';
 
     /**
      * @return mixed
@@ -19,7 +21,17 @@ class ExampleClass implements Invokable, Stringifiable
      */
     public function __toString()
     {
-        return "Hello, World!";
+        return $this->say;
+    }
+
+    /**
+     * @return array
+     */
+    public function toArray()
+    {
+        return array(
+            $this->say
+        );
     }
 
 }
