@@ -29,9 +29,9 @@ class ExampleClass implements Invokable, Stringifiable, Arrayable
      */
     public function toArray()
     {
-        return [
+        return array(
             $this->say
-        ];
+        );
     }
 
 }
