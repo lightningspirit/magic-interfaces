@@ -34,7 +34,8 @@ class MagicTest extends PHPUnit_Framework_TestCase
      */
     public function testAssertArrayableReturn()
     {
-        $this->assertContainsOnly('string', (new ExampleClass())->toArray());
+        $o = new ExampleClass();
+        $this->assertContainsOnly('string', $o->toArray());
     }
 
 }
