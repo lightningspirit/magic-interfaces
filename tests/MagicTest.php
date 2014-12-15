@@ -21,4 +21,20 @@ class MagicTest extends PHPUnit_Framework_TestCase
         $this->assertInstanceOf('\Stringifiable', new ExampleClass());
     }
 
+    /**
+     *
+     */
+    public function testAssertArrayable()
+    {
+        $this->assertInstanceOf('\Arrayable', new ExampleClass());
+    }
+
+    /**
+     *
+     */
+    public function testAssertArrayableReturn()
+    {
+        $this->assertContainsOnly('string', (new ExampleClass())->toArray());
+    }
+
 }
